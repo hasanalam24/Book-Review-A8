@@ -1,11 +1,15 @@
-import { useLoaderData } from "react-router-dom";
+
+import Book from "./Book";
 
 const Books = ({ datas }) => {
-    // const datas = useLoaderData()
-    console.log(datas)
+
+    // console.log(datas)
+
     return (
-        <div>
-            <h1>all data: {datas.length}</h1>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
+            {
+                datas.map(book => <Book book={book}></Book>)
+            }
         </div>
     );
 };
