@@ -1,0 +1,165 @@
+[
+    {
+        "bookId": "ISBN9780062803832",
+        "bookName": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "image": "https://example.com/where-the-crawdads-sing.jpg",
+        "review": "A mesmerizing debut novel that beautifully blends mystery, romance, and nature.",
+        "totalPages": 384,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Mystery",
+            "Romance",
+            "Nature"
+        ],
+        "publisher": "G.P. Putnam's Sons",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "ISBN9780735219090",
+        "bookName": "Educated: A Memoir",
+        "author": "Tara Westover",
+        "image": "https://example.com/educated-a-memoir.jpg",
+        "review": "An extraordinary memoir about the power of education and self-discovery.",
+        "totalPages": 352,
+        "rating": 4.4,
+        "category": "Memoir",
+        "tags": [
+            "Education",
+            "Self-discovery"
+        ],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "ISBN9780143108257",
+        "bookName": "The Road",
+        "author": "Cormac McCarthy",
+        "image": "https://example.com/the-road.jpg",
+        "review": "A haunting and deeply moving post-apocalyptic novel.",
+        "totalPages": 287,
+        "rating": 4.1,
+        "category": "Science Fiction",
+        "tags": [
+            "Post-apocalyptic",
+            "Dystopian"
+        ],
+        "publisher": "Vintage Books",
+        "yearOfPublishing": 2006
+    },
+    {
+        "bookId": "ISBN9780062872624",
+        "bookName": "Becoming",
+        "author": "Michelle Obama",
+        "image": "https://example.com/becoming.jpg",
+        "review": "An intimate and inspiring memoir by the former First Lady of the United States.",
+        "totalPages": 448,
+        "rating": 4.8,
+        "category": "Memoir",
+        "tags": [
+            "Inspiration",
+            "Leadership"
+        ],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "ISBN9780812993107",
+        "bookName": "The Goldfinch",
+        "author": "Donna Tartt",
+        "image": "https://example.com/the-goldfinch.jpg",
+        "review": "A sweeping and emotionally riveting novel about art, loss, and redemption.",
+        "totalPages": 784,
+        "rating": 4.0,
+        "category": "Fiction",
+        "tags": [
+            "Art",
+            "Loss",
+            "Redemption"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 2013
+    },
+    {
+        "bookId": "ISBN9780374275631",
+        "bookName": "The Sympathizer",
+        "author": "Viet Thanh Nguyen",
+        "image": "https://example.com/the-sympathizer.jpg",
+        "review": "A gripping and thought-provoking novel about identity, politics, and betrayal.",
+        "totalPages": 384,
+        "rating": 4.2,
+        "category": "Historical Fiction",
+        "tags": [
+            "Identity",
+            "Politics",
+            "Betrayal"
+        ],
+        "publisher": "Grove Press",
+        "yearOfPublishing": 2015
+    },
+    {
+        "bookId": "ISBN9780525435007",
+        "bookName": "Born a Crime",
+        "author": "Trevor Noah",
+        "image": "https://example.com/born-a-crime.jpg",
+        "review": "A compelling and humorous memoir about growing up in South Africa during apartheid.",
+        "totalPages": 304,
+        "rating": 4.6,
+        "category": "Memoir",
+        "tags": [
+            "Apartheid",
+            "Humor"
+        ],
+        "publisher": "Spiegel & Grau",
+        "yearOfPublishing": 2016
+    },
+    {
+        "bookId": "ISBN9780143127517",
+        "bookName": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "image": "https://example.com/the-night-circus.jpg",
+        "review": "A magical and enchanting tale set in a mysterious circus.",
+        "totalPages": 400,
+        "rating": 4.3,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Circus"
+        ],
+        "publisher": "Anchor Books",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": "ISBN9780060562763",
+        "bookName": "American Gods",
+        "author": "Neil Gaiman",
+        "image": "https://example.com/american-gods.jpg",
+        "review": "A captivating blend of mythology, fantasy, and Americana.",
+        "totalPages": 635,
+        "rating": 4.1,
+        "category": "Fantasy",
+        "tags": [
+            "Mythology",
+            "Americana"
+        ],
+        "publisher": "William Morrow",
+        "yearOfPublishing": 2001
+    },
+    {
+        "bookId": "ISBN9780062457714",
+        "bookName": "The Underground Railroad",
+        "author": "Colson Whitehead",
+        "image": "https://example.com/the-underground-railroad.jpg",
+        "review": "A powerful and harrowing tale of slavery and escape.",
+        "totalPages": 320,
+        "rating": 4.5,
+        "category": "Historical Fiction",
+        "tags": [
+            "Slavery",
+            "Escape"
+        ],
+        "publisher": "Doubleday",
+        "yearOfPublishing": 2016
+    }
+]
