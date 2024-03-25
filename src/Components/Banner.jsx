@@ -5,9 +5,9 @@ const Banner = () => {
     return (
         <div>
             {/* banner */}
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse h-[400px]">
-                    <img src="image-1.png" className="h-[150px] lg:h-[350px] rounded-lg " />
+            <div className="hero h-[500px] bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse ">
+                    <img src="image-1.png" className="h-[200px] w-[200px] lg:w-[290px] lg:h-[350px] rounded-lg " />
                     <div className="w-[90%] mx-auto lg:w-3/5">
                         <h1 className="text-2xl lg:text-5xl font-bold mb-10">Mystical Where Dreams and Stories Interweave</h1>
 
