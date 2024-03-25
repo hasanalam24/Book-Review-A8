@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="">
+        <div className="mb-3">
             <div className="navbar bg-base-100 shadow-lg rounded-lg">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -19,13 +19,19 @@ const Navbar = () => {
                     </div>
                     <a className="btn btn-ghost text-lg lg:text-2xl p-0">Jannah Shop</a>
                 </div>
+
+
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 gap-5">
-                        <NavLink to='/' className="text-lg font-semibold">Home</NavLink>
-                        <NavLink to='/listbooks' className="text-lg font-semibold">Listed Books</NavLink>
-                        <NavLink to='/readpage' className="text-lg font-semibold">Pages to Read</NavLink>
-                        <NavLink to='/ebooks' className="text-lg font-semibold">E-Books</NavLink>
-                        <NavLink to='/grandramadan' className="text-lg font-semibold">Grand-Ramadan</NavLink>
+                    <ul className="menu menu-horizontal  gap-5">
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Home</NavLink>
+
+                        <NavLink to='/listbooks' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Listed Books</NavLink>
+
+                        <NavLink to='/readpage' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Pages to Read</NavLink>
+
+                        <NavLink to='/ebooks' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>E-Books</NavLink>
+
+                        <NavLink to='/grandramadan' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Grand-Ramadan</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">

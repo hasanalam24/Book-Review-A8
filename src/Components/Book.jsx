@@ -2,7 +2,7 @@ import { FaRegStar } from "react-icons/fa";
 
 const Book = ({ book }) => {
     // console.log(book)
-    const { bookName, image, review, author, totalPages, rating, category, tags, publisher, yearOfPublishing } = book
+    const { bookName, image, author, rating, category, tags, publisher, yearOfPublishing } = book
     return (
         <div>
             <div className=" p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
@@ -18,6 +18,10 @@ const Book = ({ book }) => {
                     <h2 className="text-2xl font-semibold tracking-wide">{bookName}</h2>
                     <p className="text-lg font-medium">By: {author}</p>
 
+                    <div className="flex justify-between">
+                        <span>{publisher}</span>
+                        <span>{yearOfPublishing}</span>
+                    </div>
                     <div className="flex justify-between text-lg">
                         <p>{category}</p>
                         <p className="flex gap-2 items-center">{rating} <FaRegStar></FaRegStar></p>
