@@ -29,17 +29,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <Link className="relative p-0.5 inline-flex items-center justify-center lg:font-bold overflow-hidden group rounded-md">
-                        <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                        <span className="relative px-4 py-0 md:py-2 lg:py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                            <span className="relative text-white">Sign In</span>
-                        </span>
+                    <Link class="rounded-md px-4  md:py-2 lg:py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-indigo-600 text-indigo-600 text-white">
+                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-indigo-600 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                        <span className="relative text-indigo-600 transition duration-300 group-hover:text-white ease">Sign In</span>
                     </Link>
-                    <Link className="relative p-0.5 inline-flex items-center justify-center lg:font-bold overflow-hidden group rounded-md">
-                        <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                        <span className="relative px-4 py-0 md:py-2 lg:py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                            <span className="relative text-white">Sign Up</span>
-                        </span>
+                    <Link className="relative rounded px-4 py-1 md:py-2 lg:py-2 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300">
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span className="relative">Sign Up</span>
                     </Link>
 
                 </div>
