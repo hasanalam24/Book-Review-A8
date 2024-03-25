@@ -7,10 +7,50 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import PagesRead from './Pages/PagesRead.jsx';
+import EBooks from './Pages/EBooks.jsx';
+import GrandRamadan from './Pages/GrandRamadan.jsx';
+import ListBook from './Pages/ListBook.jsx';
+// import Books from './Components/Books.jsx';
+import Home from './Components/Home.jsx';
+
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <App></App>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>,
+        loader: () => fetch('dataLoad.json')
+        // children: [
+        //   {
+        //     path: '/',
+        //     element: <Books></Books>,
+
+        //   }
+        // ]
+      },
+
+      {
+        path: '/listbooks',
+        element: <ListBook></ListBook>
+      },
+      {
+        path: '/readpage',
+        element: <PagesRead></PagesRead>
+      },
+      {
+        path: '/ebooks',
+        element: <EBooks></EBooks>
+
+      },
+      {
+        path: '/grandramadan',
+        element: <GrandRamadan></GrandRamadan>
+      }
+    ]
   },
 ]);
 

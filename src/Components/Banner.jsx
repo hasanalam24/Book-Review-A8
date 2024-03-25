@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
         <div>
+            {/* banner */}
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse h-[400px]">
                     <img src="image-1.png" className="h-[150px] lg:h-[350px] rounded-lg " />

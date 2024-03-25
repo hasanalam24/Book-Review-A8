@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -20,16 +20,16 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-lg lg:text-2xl p-0">Jannah Shop</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a className="text-lg font-semibold">Home</a></li>
-                        <li><a className="text-lg font-semibold">Listed Books</a></li>
-                        <li><a className="text-lg font-semibold">Pages to Read</a></li>
-                        <li><a className="text-lg font-semibold">E-Books</a></li>
-                        <li><a className="text-lg font-semibold">Grand-Ramadan</a></li>
+                    <ul className="menu menu-horizontal px-1 gap-5">
+                        <NavLink to='/' className="text-lg font-semibold">Home</NavLink>
+                        <NavLink to='/listbooks' className="text-lg font-semibold">Listed Books</NavLink>
+                        <NavLink to='/readpage' className="text-lg font-semibold">Pages to Read</NavLink>
+                        <NavLink to='/ebooks' className="text-lg font-semibold">E-Books</NavLink>
+                        <NavLink to='/grandramadan' className="text-lg font-semibold">Grand-Ramadan</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <Link class="rounded-md px-4  md:py-2 lg:py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-indigo-600 text-indigo-600 text-white">
+                    <Link className="rounded-md px-4  md:py-2 lg:py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-indigo-600 text-indigo-600 text-white">
                         <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-indigo-600 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                         <span className="relative text-indigo-600 transition duration-300 group-hover:text-white ease">Sign In</span>
                     </Link>

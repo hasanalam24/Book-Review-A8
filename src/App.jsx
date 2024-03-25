@@ -1,6 +1,9 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Banner from './Components/Banner'
+import Banner from './Components/Home'
+import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
+import Books from './Components/Books'
 
 function App() {
 
@@ -8,8 +11,10 @@ function App() {
   return (
     <div className='lg:w-[1170px] mx-auto'>
       <Navbar></Navbar>
-      <Banner></Banner>
-      <h1></h1>
+
+      <Outlet></Outlet>
+
+      <Footer></Footer>
 
     </div>
   )
