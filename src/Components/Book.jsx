@@ -1,17 +1,18 @@
 import { FaRegStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
     // console.log(book)
-    const { bookName, image, author, rating, category, tags, publisher, yearOfPublishing } = book
+    const { bookName, image, author, rating, category, tags, publisher, yearOfPublishing, bookId } = book
     return (
-        <div>
+        <Link to={`/bookdetails/${bookId}`}>
             <div className=" p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
                 <img src={image} alt="" className="object-cover object-center w-full rounded-md h-52 dark:bg-gray-500" />
                 <div className="mt-6 mb-2 space-y-5">
 
                     <div className="flex gap-3">
                         {
-                            tags.map((tag, idx) => <p className="text-[#22C55E]" key={idx}>{tag}</p>)
+                            tags.map((tag, idx) => <p className="text-[#23BE0A] bg-gray-100 rounded-xl p-2 font-medium text-lg" key={idx}>{tag}</p>)
                         }
                     </div>
 
@@ -22,6 +23,8 @@ const Book = ({ book }) => {
                         <span>{publisher}</span>
                         <span>{yearOfPublishing}</span>
                     </div>
+
+                    <div className="border border-dashed"></div>
                     <div className="flex justify-between text-lg">
                         <p>{category}</p>
                         <p className="flex gap-2 items-center">{rating} <FaRegStar></FaRegStar></p>
@@ -29,7 +32,7 @@ const Book = ({ book }) => {
                 </div>
 
             </div>
-        </div>
+        </Link>
     );
 };
 

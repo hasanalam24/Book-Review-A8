@@ -10,11 +10,12 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
-                            <li><a className="text-lg font-medium">Home</a></li>
-                            <li><a className="text-lg font-medium">Listed Books</a></li>
-                            <li><a className="text-lg font-medium">Pages to Read</a></li>
-                            <li><a className="text-lg font-medium">E-Books</a></li>
-                            <li><a className="text-lg font-medium">Grand-Ramadan</a></li>
+                            <Link to='/' className="text-lg font-medium">Home</Link>
+                            <Link to='/listbooks' className="text-lg font-medium">Listed Books</Link>
+                            <Link to='/readpage' className="text-lg font-medium">Pages to Read</Link>
+                            <Link to='/ebooks' className="text-lg font-medium">E-Books</Link>
+                            <Link to='/grandramadan' className="text-lg font-medium">Grand-Ramadan</Link>
+
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-lg lg:text-2xl p-0">Jannah Shop</a>

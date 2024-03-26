@@ -13,6 +13,9 @@ import GrandRamadan from './Pages/GrandRamadan.jsx';
 import ListBook from './Pages/ListBook.jsx';
 // import Books from './Components/Books.jsx';
 import Home from './Components/Home.jsx';
+import Details from './Pages/Details.jsx';
+import Books from './Components/Books.jsx';
+import Book from './Components/Book.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,20 +26,24 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('dataLoad.json')
-        // children: [
-        //   {
-        //     path: '/',
-        //     element: <Books></Books>,
-
-        //   }
-        // ]
+        loader: () => fetch('dataLoad.json'),
       },
+      // {
+      //   path: '/books',
+      //   element: <Book></Book>
+      // },
 
       {
-        path: '/listbooks',
-        element: <ListBook></ListBook>
+        path: '/bookdetails/:id',
+        element: <Details></Details>,
+        loader: () => fetch('dataLoad.json'),
       },
+      {
+        path: '/listbooks',
+        element: <ListBook></ListBook>,
+
+      },
+
       {
         path: '/readpage',
         element: <PagesRead></PagesRead>

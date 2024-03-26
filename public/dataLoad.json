@@ -1,6 +1,6 @@
 [
     {
-        "bookId": "ISBN9780062803832",
+        "bookId": "752",
         "bookName": "Where the Crawdads Sing",
         "author": "Delia Owens",
         "image": "../assets/image-2.png",
@@ -17,7 +17,7 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "ISBN9780735219090",
+        "bookId": "598",
         "bookName": "Educated: A Memoir",
         "author": "Tara Westover",
         "image": "../assets/image-3.png",
@@ -33,7 +33,7 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "ISBN9780143108257",
+        "bookId": "235",
         "bookName": "The Road",
         "author": "Cormac McCarthy",
         "image": "../assets/image-4.png",
@@ -49,7 +49,7 @@
         "yearOfPublishing": 2006
     },
     {
-        "bookId": "ISBN9780062872624",
+        "bookId": "624",
         "bookName": "Becoming",
         "author": "Michelle Obama",
         "image": "../assets/image-5.png",
@@ -65,7 +65,7 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "ISBN9780812993107",
+        "bookId": "129",
         "bookName": "The Goldfinch",
         "author": "Donna Tartt",
         "image": "../assets/image-6.png",
@@ -82,7 +82,7 @@
         "yearOfPublishing": 2013
     },
     {
-        "bookId": "ISBN9780374275631",
+        "bookId": "5631",
         "bookName": "The Sympathizer",
         "author": "Viet Thanh Nguyen",
         "image": "../assets/image-7.png",
@@ -99,7 +99,7 @@
         "yearOfPublishing": 2015
     },
     {
-        "bookId": "ISBN9780525435007",
+        "bookId": "5257",
         "bookName": "Born a Crime",
         "author": "Trevor Noah",
         "image": "../assets/image-8.png",
@@ -115,7 +115,7 @@
         "yearOfPublishing": 2016
     },
     {
-        "bookId": "ISBN9780143127517",
+        "bookId": "7517",
         "bookName": "The Night Circus",
         "author": "Erin Morgenstern",
         "image": "../assets/image-9.png",
@@ -131,7 +131,7 @@
         "yearOfPublishing": 2011
     },
     {
-        "bookId": "ISBN9780060562763",
+        "bookId": "763",
         "bookName": "American Gods",
         "author": "Neil Gaiman",
         "image": "../assets/image-2.png",
@@ -147,7 +147,7 @@
         "yearOfPublishing": 2001
     },
     {
-        "bookId": "ISBN9780062457714",
+        "bookId": "7714",
         "bookName": "The Underground Railroad",
         "author": "Colson Whitehead",
         "image": "../assets/image-3.png",
