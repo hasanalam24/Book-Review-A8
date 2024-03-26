@@ -7,7 +7,9 @@ const Book = ({ book }) => {
     return (
         <Link to={`/details/${bookId}`}>
             <div className=" p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-                <img src={image} alt="" className="object-cover object-center w-full rounded-md h-52 dark:bg-gray-500" />
+                <div className="bg-gray-100 p-6 rounded-xl">
+                    <img src={image} alt="" className="object-cover object-center w-[150px] mx-auto rounded-md h-56 dark:bg-gray-500" />
+                </div>
                 <div className="mt-6 mb-2 space-y-5">
 
                     <div className="flex gap-3">
