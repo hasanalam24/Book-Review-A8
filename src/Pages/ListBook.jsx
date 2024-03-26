@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const ListBook = () => {
     const [tab, setTab] = useState(0)
@@ -46,6 +46,7 @@ const ListBook = () => {
 
 
                 </div>
+                <Outlet></Outlet>
             </div>
         </div>
     );
