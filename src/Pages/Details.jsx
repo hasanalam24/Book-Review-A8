@@ -1,7 +1,14 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const Details = () => {
+    const showToastMessage = () => {
+        toast.success("Read Completed!", {
+
+        });
+    }
     const detailsData = useLoaderData()
     const { id } = useParams()
     const detail = detailsData.find((u) => u.bookId == id)
@@ -40,10 +47,11 @@ const Details = () => {
                     </div>
                     <div className="flex gap-4">
                         <div className="card-actions ">
-                            <button className="btn btn-primary">Read</button>
+                            <button onClick={showToastMessage} className="btn border-2 rounded-xl font-bold">Read</button>
+                            <ToastContainer />
                         </div>
                         <div className="card-actions ">
-                            <button className="btn btn-primary">Wishlist</button>
+                            <button className="btn bg-[#50B1C9] text-white font-bold">Wishlist</button>
                         </div>
                     </div>
                 </div>
