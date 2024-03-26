@@ -5,7 +5,8 @@ import { SlLocationPin } from "react-icons/sl";
 import { IoPeopleSharp } from "react-icons/io5";
 import { SiGoogledocs } from "react-icons/si";
 import { Link } from "react-router-dom";
-const ReadBook = () => {
+
+const Wishlist = () => {
 
     const [books, setBooks] = useState([])
 
@@ -63,4 +64,4 @@ const ReadBook = () => {
     );
 };
 
-export default ReadBook;
+export default Wishlist;

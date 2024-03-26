@@ -15,6 +15,7 @@ import ListBook from './Pages/ListBook.jsx';
 import Home from './Components/Home.jsx';
 import Details from './Pages/Details.jsx';
 import ReadBook from './Components/ReadBook.jsx';
+import Wishlist from './Components/WishList.jsx';
 
 
 
@@ -41,8 +42,12 @@ const router = createBrowserRouter([
         children: [
 
           {
-            path: '/listbooks',
+            index: true,
             element: <ReadBook></ReadBook>
+          },
+          {
+            path: 'wishlist',
+            element: <Wishlist></Wishlist>
           }
         ]
 

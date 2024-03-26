@@ -11,6 +11,10 @@ const Details = () => {
         // console.log(book)
         readBooks(book)
     }
+    const wish = (book) => {
+        // console.log(book)
+        readBooks(book)
+    }
 
     const detailsData = useLoaderData()
     const { id } = useParams()
@@ -19,8 +23,8 @@ const Details = () => {
     const { image, bookName, author, category, review, tags, totalPages, publisher, yearOfPublishing, rating } = detail
     return (
         <div>
-            <div className="card gap-10 p-8 card-side bg-base-100 shadow-xl space-y-3 items-center">
-                <figure><img className="w-[550px] h-[750px]" src={image} /></figure>
+            <div className="card flex flex-col lg:flex-row gap-0 lg:gap-10 p-8 card-side bg-base-100 shadow-xl space-y-3 items-center">
+                <figure><img className="lg:w-[550px] lg:h-[750px]" src={image} /></figure>
                 <div className="space-y-3">
                     <h2 className="card-title mt-10">{bookName}</h2>
                     <h4>{author}</h4>
@@ -54,7 +58,7 @@ const Details = () => {
                             <ToastContainer />
                         </div>
                         <div className="card-actions ">
-                            <button className="btn bg-[#50B1C9] text-white font-bold">Wishlist</button>
+                            <button onClick={() => wish(detail)} className="btn bg-[#50B1C9] text-white font-bold">Wishlist</button>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ export const readBooks = (book) => {
     const isExits = books.find(b => b.bookId === book.bookId)
 
     if (isExits) {
-        return toast.error('ALready Bookmarked')
+        return toast.error('Already Read Complete')
     }
     books.push(book)
 

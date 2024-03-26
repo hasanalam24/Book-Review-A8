@@ -21,8 +21,8 @@ const ListBook = () => {
             <div>
                 {/* tabs */}
                 <div className="flex items-center  overflow-x-auto overflow-y-hidden  flex-nowrap dark:bg-gray-100 dark:text-gray-800 mt-8">
-                    <Link to='/listbooks'
-
+                    <Link
+                        to='/listbooks'
                         onClick={() => setTab(0)}
                         className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 
                         ${tab === 0 ? 'border border-b-0' : 'border-b'}
@@ -33,7 +33,7 @@ const ListBook = () => {
                         </svg>
                         <span>Read Books</span>
                     </Link>
-                    <Link to='/listbooks'
+                    <Link to='wishlist'
 
                         onClick={() => setTab(1)}
                         className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 
