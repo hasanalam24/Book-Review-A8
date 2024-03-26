@@ -18,7 +18,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-lg lg:text-2xl p-0">Jannah Shop</a>
+                    <a className="btn btn-ghost text-lg lg:text-2xl p-0">Jannat Shop</a>
                 </div>
 
 

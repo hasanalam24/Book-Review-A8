@@ -1,7 +1,7 @@
 [
     {
         "bookId": "752",
-        "bookName": "Where the Crawdads Sing",
+        "bookName": "Dreamers Folly",
         "author": "Delia Owens",
         "image": "../assets/book-img1.jpg",
         "review": "A mesmerizing debut novel that beautifully blends mystery, romance, and nature.",
@@ -18,8 +18,8 @@
     },
     {
         "bookId": "598",
-        "bookName": "Educated: A Memoir",
-        "author": "Tara Westover",
+        "bookName": "Enough",
+        "author": "Jon Douglas",
         "image": "../assets/book-img-2.jpg",
         "review": "An extraordinary memoir about the power of education and self-discovery.",
         "totalPages": 352,
@@ -34,7 +34,7 @@
     },
     {
         "bookId": "235",
-        "bookName": "The Road",
+        "bookName": "How to Be Alone",
         "author": "Cormac McCarthy",
         "image": "../assets/book-img-3.jpg",
         "review": "A haunting and deeply moving post-apocalyptic novel.",
@@ -50,8 +50,8 @@
     },
     {
         "bookId": "624",
-        "bookName": "Becoming",
-        "author": "Michelle Obama",
+        "bookName": "Gitmo and Back Again",
+        "author": "Glenn Fisher",
         "image": "../assets/book-img-4.jpg",
         "review": "An intimate and inspiring memoir by the former First Lady of the United States.",
         "totalPages": 448,
@@ -66,7 +66,7 @@
     },
     {
         "bookId": "129",
-        "bookName": "The Goldfinch",
+        "bookName": "Summer's Snow",
         "author": "Donna Tartt",
         "image": "../assets/book-img-5.jpg",
         "review": "A sweeping and emotionally riveting novel about art, loss, and redemption.",
@@ -83,7 +83,7 @@
     },
     {
         "bookId": "5631",
-        "bookName": "The Sympathizer",
+        "bookName": "Gut Fix",
         "author": "Viet Thanh Nguyen",
         "image": "../assets/book-img-6.jpg",
         "review": "A gripping and thought-provoking novel about identity, politics, and betrayal.",
@@ -100,7 +100,7 @@
     },
     {
         "bookId": "5257",
-        "bookName": "Born a Crime",
+        "bookName": "Jumping On The Drips",
         "author": "Trevor Noah",
         "image": "../assets/book-img-11.jpg",
         "review": "A compelling and humorous memoir about growing up in South Africa during apartheid.",
@@ -116,8 +116,8 @@
     },
     {
         "bookId": "7517",
-        "bookName": "The Night Circus",
-        "author": "Erin Morgenstern",
+        "bookName": "Chosen to Coach",
+        "author": "Robby Goodwin",
         "image": "../assets/book-img-8.jpg",
         "review": "A magical and enchanting tale set in a mysterious circus.",
         "totalPages": 400,
@@ -132,8 +132,8 @@
     },
     {
         "bookId": "763",
-        "bookName": "American Gods",
-        "author": "Neil Gaiman",
+        "bookName": "The World Silently Spinning",
+        "author": "M>B> Maskonas",
         "image": "../assets/book-img-9.jpg",
         "review": "A captivating blend of mythology, fantasy, and Americana.",
         "totalPages": 635,
@@ -148,7 +148,7 @@
     },
     {
         "bookId": "7714",
-        "bookName": "The Underground Railroad",
+        "bookName": "Begin Again",
         "author": "Colson Whitehead",
         "image": "../assets/book-img-10.jpg",
         "review": "A powerful and harrowing tale of slavery and escape.",

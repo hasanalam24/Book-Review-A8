@@ -14,6 +14,7 @@ import ListBook from './Pages/ListBook.jsx';
 // import Books from './Components/Books.jsx';
 import Home from './Components/Home.jsx';
 import Details from './Pages/Details.jsx';
+import ReadBook from './Components/ReadBook.jsx';
 
 
 
@@ -37,6 +38,13 @@ const router = createBrowserRouter([
       {
         path: '/listbooks',
         element: <ListBook></ListBook>,
+        children: [
+
+          {
+            path: '/listbooks',
+            element: <ReadBook></ReadBook>
+          }
+        ]
 
       },
 
@@ -52,7 +60,8 @@ const router = createBrowserRouter([
       {
         path: '/grandramadan',
         element: <GrandRamadan></GrandRamadan>
-      }
+      },
+
     ]
   },
 ]);

@@ -1,14 +1,17 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { readBooks } from "../Components/localStorage";
+
 
 
 const Details = () => {
-    const showToastMessage = () => {
-        toast.success("Read Completed!", {
 
-        });
+    const handleRead = (book) => {
+        // console.log(book)
+        readBooks(book)
     }
+
     const detailsData = useLoaderData()
     const { id } = useParams()
     const detail = detailsData.find((u) => u.bookId == id)
@@ -29,7 +32,7 @@ const Details = () => {
                     <div className="flex gap-4 items-center">
                         <p className="font-bold">Tags: </p>
                         {
-                            tags.map(tag => <p className="bg-gray-100 text-[#23BE0A] p-2 rounded-lg">{tag}</p>)
+                            tags.map((tag, idx) => <p key={idx} className="bg-gray-100 text-[#23BE0A] p-2 rounded-lg">{tag}</p>)
                         }
                     </div>
                     <div className="border "></div>
@@ -47,7 +50,7 @@ const Details = () => {
                     </div>
                     <div className="flex gap-4">
                         <div className="card-actions ">
-                            <button onClick={showToastMessage} className="btn border-2 rounded-xl font-bold">Read</button>
+                            <button onClick={() => handleRead(detail)} className="btn border-2 rounded-xl font-bold">Read</button>
                             <ToastContainer />
                         </div>
                         <div className="card-actions ">
