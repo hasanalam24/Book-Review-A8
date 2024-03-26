@@ -4,11 +4,13 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 const ListBook = () => {
     const [tab, setTab] = useState(0)
     return (
-        <div>
-            <h1 className="text-center text-2xl font-bold">Books</h1>
+        <div className="mt-2">
+            <div className="bg-gray-100 rounded-xl p-6">
+                <h1 className="text-center text-2xl font-bold">Books</h1>
+            </div>
             <div className="text-center mt-8">
                 <select className="select text-white font-bold max-w-xs bg-[#23BE0A]">
-                    <option disabled>Sort By</option>
+                    <option disabled selected>Sort By</option>
                     <option>Rating</option>
                     <option>Number of pages</option>
                     <option>Publisher year</option>
