@@ -3,12 +3,12 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 const Details = () => {
     const detailsData = useLoaderData()
-    const { idParams } = useParams()
-    const detail = detailsData.find(u => u.bookId == idParams)
+    const { id } = useParams()
+    const detail = detailsData.find((u) => u.bookId == id)
     console.log(detail)
     return (
         <div>
-            <h1>name: </h1>
+            <h1>name:{detail.author} </h1>
         </div>
     );
 };

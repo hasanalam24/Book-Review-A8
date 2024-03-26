@@ -8,7 +8,7 @@ const ListBook = () => {
             <h1 className="text-center text-2xl font-bold">Books</h1>
             <div className="text-center mt-8">
                 <select className="select text-white font-bold max-w-xs bg-[#23BE0A]">
-                    <option disabled selected>Sort By</option>
+                    <option disabled>Sort By</option>
                     <option>Homer</option>
                     <option>Marge</option>
                     <option>Bart</option>

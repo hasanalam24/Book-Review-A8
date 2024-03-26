@@ -14,8 +14,7 @@ import ListBook from './Pages/ListBook.jsx';
 // import Books from './Components/Books.jsx';
 import Home from './Components/Home.jsx';
 import Details from './Pages/Details.jsx';
-import Books from './Components/Books.jsx';
-import Book from './Components/Book.jsx';
+
 
 
 const router = createBrowserRouter([
@@ -24,19 +23,16 @@ const router = createBrowserRouter([
     element: <App></App>,
     children: [
       {
-        path: '/',
+        index: true,
         element: <Home></Home>,
-        loader: () => fetch('dataLoad.json'),
+        loader: () => fetch('/dataLoad.json'),
       },
-      // {
-      //   path: '/books',
-      //   element: <Book></Book>
-      // },
 
       {
-        path: '/bookdetails/:id',
+        path: '/details/:id',
         element: <Details></Details>,
-        loader: () => fetch('dataLoad.json'),
+        loader: () => fetch('/dataLoad.json'),
+
       },
       {
         path: '/listbooks',
