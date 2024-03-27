@@ -2,6 +2,9 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner";
 import Books from "./Books";
+import Chart from "./Chart";
+
+
 
 
 const Home = () => {
@@ -11,6 +14,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Books datas={datas}></Books>
+
         </div>
     );
 };
