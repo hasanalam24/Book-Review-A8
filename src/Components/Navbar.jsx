@@ -13,8 +13,8 @@ const Navbar = () => {
                         <Link to='/' className="text-lg font-medium">Home</Link>
                         <Link to='/listbooks' className="text-lg font-medium">Listed Books</Link>
                         <Link to='/readpage' className="text-lg font-medium">Pages to Read</Link>
-                        <Link to='/ebooks' className="text-lg font-medium">E-Books</Link>
                         <Link to='/grandramadan' className="text-lg font-medium">Grand-Ramadan</Link>
+                        <Link to='/cart' className="text-lg font-medium">Cart</Link>
 
                     </ul>
                 </div>
@@ -24,15 +24,16 @@ const Navbar = () => {
 
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal  gap-5">
-                    <NavLink to='/' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Home</NavLink>
+                    <NavLink to='/' className={({ isActive }) => isActive ? 'border-2  rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Home</NavLink>
 
-                    <NavLink to='/listbooks' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Listed Books</NavLink>
+                    <NavLink to='/listbooks' className={({ isActive }) => isActive ? 'border-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Listed Books</NavLink>
 
-                    <NavLink to='/readpage' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Pages to Read</NavLink>
+                    <NavLink to='/readpage' className={({ isActive }) => isActive ? 'border-2 p-[2px] rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Pages to Read</NavLink>
 
-                    <NavLink to='/ebooks' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>E-Books</NavLink>
 
-                    <NavLink to='/grandramadan' className={({ isActive }) => isActive ? 'border-2 p-2 rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Grand-Ramadan</NavLink>
+                    <NavLink to='/grandramadan' className={({ isActive }) => isActive ? 'border-2 p-[2px] rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Grand-Ramadan</NavLink>
+
+                    <NavLink to='/cart' className={({ isActive }) => isActive ? 'border-2 p-[2px] rounded-lg border-[#22C55E] text-lg text-[#22C55E] font-semibold opacity-80' : 'opacity-80 text-lg font-semibold'}>Cart</NavLink>
                 </ul>
             </div>
             <div className="navbar-end gap-5">

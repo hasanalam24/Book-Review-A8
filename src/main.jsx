@@ -8,14 +8,17 @@ import {
 } from "react-router-dom";
 
 import PagesRead from './Pages/PagesRead.jsx';
-import EBooks from './Pages/EBooks.jsx';
+
 import GrandRamadan from './Pages/GrandRamadan.jsx';
 import ListBook from './Pages/ListBook.jsx';
-// import Books from './Components/Books.jsx';
+
 import Home from './Components/Home.jsx';
 import Details from './Pages/Details.jsx';
 import ReadBook from './Components/ReadBook.jsx';
 import Wishlist from './Components/WishList.jsx';
+
+
+import Cart from './Pages/Cart.jsx';
 
 
 
@@ -57,9 +60,10 @@ const router = createBrowserRouter([
         path: '/readpage',
         element: <PagesRead></PagesRead>
       },
+
       {
-        path: '/ebooks',
-        element: <EBooks></EBooks>
+        path: '/cart',
+        element: <Cart></Cart>
 
       },
       {
