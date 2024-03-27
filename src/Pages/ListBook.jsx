@@ -6,7 +6,7 @@ const ListBook = () => {
     return (
         <div className="mt-2">
             <div className="bg-gray-100 rounded-xl p-6">
-                <h1 className="text-center text-2xl font-bold">Books</h1>
+                <h1 className="text-center text-2xl font-bold">Your Listed Books</h1>
             </div>
             <div className="text-center mt-8">
                 <select className="select text-white font-bold max-w-xs bg-[#23BE0A]">

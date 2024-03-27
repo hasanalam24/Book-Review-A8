@@ -8,17 +8,15 @@ import {
 } from "react-router-dom";
 
 import PagesRead from './Pages/PagesRead.jsx';
-
 import GrandRamadan from './Pages/GrandRamadan.jsx';
 import ListBook from './Pages/ListBook.jsx';
-
 import Home from './Components/Home.jsx';
 import Details from './Pages/Details.jsx';
 import ReadBook from './Components/ReadBook.jsx';
 import Wishlist from './Components/WishList.jsx';
-
-
 import Cart from './Pages/Cart.jsx';
+import Error from './Components/Error.jsx';
+
 
 
 
@@ -26,6 +24,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <Error></Error>,
     children: [
       {
         index: true,
