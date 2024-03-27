@@ -21,6 +21,7 @@ const Details = () => {
     const detail = detailsData.find((u) => u.bookId == id)
     // console.log(detail)
     const { image, bookName, author, category, review, tags, totalPages, publisher, yearOfPublishing, rating } = detail
+
     return (
         <div>
             <div className="card flex flex-col lg:flex-row gap-0 lg:gap-10 p-8 card-side bg-base-100 shadow-xl space-y-3 items-center">

@@ -6,7 +6,8 @@ const Chart = ({ bookArray }) => {
 
     // console.log(bookArray)
     return (
-        <div className=''>
+        <div>
+
             <BarChart width={1100} height={300} data={bookArray}
             >
                 <CartesianGrid strokeDasharray="3 3" />
