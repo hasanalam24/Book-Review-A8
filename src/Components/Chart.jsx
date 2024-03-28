@@ -1,4 +1,4 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import React, { PureComponent } from 'react';
 
 
@@ -16,7 +16,7 @@ const Chart = ({ bookArray }) => {
                 <YAxis />
 
                 <Tooltip></Tooltip>
-                <Bar dataKey="totalPages" barSize={40} fill="red" />
+                <Bar dataKey="totalPages" barSize={40} fill="tomato" />
 
             </BarChart>
 

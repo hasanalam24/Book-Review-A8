@@ -1,10 +1,12 @@
 
 
+
 const GrandRamadan = () => {
     return (
         <div>
+
             <section className="py-6 sm:py-12 dark:bg-gray-100 dark:text-gray-800">
-                <div className="container p-6 mx-auto space-y-8">
+                <div className=" p-6 mx-auto space-y-8">
                     <div className="space-y-2 text-center">
                         <h2 className="text-3xl font-bold">Ramadan Collections</h2>
                         <p className="font-serif text-sm dark:text-gray-600">choose your favorite item here</p>

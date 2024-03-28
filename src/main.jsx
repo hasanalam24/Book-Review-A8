@@ -18,8 +18,6 @@ import Cart from './Pages/Cart.jsx';
 import Error from './Components/Error.jsx';
 
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",

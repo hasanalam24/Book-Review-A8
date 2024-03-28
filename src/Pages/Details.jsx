@@ -4,7 +4,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { readBooks } from "../Components/localStorage";
 
 
-
 const Details = () => {
 
     const handleRead = (book) => {

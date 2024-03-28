@@ -1,11 +1,6 @@
-
-
 import { useEffect, useState } from 'react';
 import Chart from '../Components/Chart';
 import { getBook } from '../Components/localStorage';
-
-
-
 
 const PagesRead = () => {
     const [books, setBooks] = useState([])
@@ -20,7 +15,6 @@ const PagesRead = () => {
     return (
         <div>
             <Chart bookArray={bookArray}></Chart>
-
         </div>
     );
 };

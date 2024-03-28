@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 
-
 const ListBook = () => {
     const [tab, setTab] = useState(0)
 
-
-
     return (
         <div className="mt-2">
+
             <div className="bg-gray-100 rounded-xl p-6">
                 <h1 className="text-center text-2xl font-bold">Your Listed Books</h1>
             </div>
@@ -49,7 +47,6 @@ const ListBook = () => {
                         </svg>
                         <span>Wishlist Books</span>
                     </Link>
-
 
                 </div>
                 <Outlet></Outlet>

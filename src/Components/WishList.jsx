@@ -9,12 +9,10 @@ import { Link } from "react-router-dom";
 const Wishlist = () => {
 
     const [books, setBooks] = useState([])
-
     useEffect(() => {
         const storeBooks = getBook()
         setBooks(storeBooks)
     }, [])
-
 
     return (
 
@@ -22,8 +20,6 @@ const Wishlist = () => {
             <div className="flex flex-col gap-5 mt-5">
 
                 {
-
-
                     books.map(book =>
                         <div key={book.bookId}>
                             <div className="card flex flex-col lg:flex-row card-side bg-base-100 border-2 rounded-xl p-4 gap-10">
